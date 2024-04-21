@@ -1,0 +1,71 @@
+{"intents":[
+    {"tag": "greetings",
+   "patterns": ["Hi" , "How are you" ,"is anyone there?" , "Good day" , "whatsup" , "hello" , "hey"],
+   "responses": ["Welcome back to Ekaya's cafeteria how can I help you?" , "Hi there , How can I help you" , "Good to have you back , how can I help you?"],
+   "context": ""
+ },
+ {  "tag":"goodbye",
+    "patterns" : ["Thank you " , "I am done ordering " , "See you later " , "Have a good day" , "no I am done" , "no"],
+    "responses": ["Thank you for ordering , we will be glad to have back again " , "Thank you for ordering" , "We thank you for your support"],
+    "context":""
+
+
+ },
+ {
+    "tag": "shop",
+    "patterns":[" what do you sell? " , "Do you guys sell cooked food ", "whats on the menu" , "what type of products do you sell" ],
+    "responses":["We sell diferent products from such as cooked foods , toiletries , snacks , hubbly matrial , cigarettes and many more", "We are a supermarket that sells cooked food such as kotas , pap and a whole variety of meat , dumplings and many more"],
+    "context":""
+
+
+ },
+ {
+   "tag": "Small chip",
+   "patterns": ["Chips for R15 please" , "I would like to order R15 chips" , "I would like to order R15 fries" ,"Chips for R15","chips for R15 please", "Fries for R15 please" , "I would like to order small fries" , "I would like to order small chips" , "small chips please" , "small fries please" ,"small chips", "small fries", "I want small chips ","I want small fries", "R15 fries " , "R15 chips" , "15 fries" , "15 chips"],
+   "responses":["Thank you for ordering , large chips coming up , would you like it with sauces , yes or no?"  , "Thank you for ordering , R15 chips coming up , would you like it with sauces , yes or no?"  , "Thank you for ordering , R15 fries coming up , would you like it with sauces , yes or no?"],
+    "context":""
+
+ },
+ {
+   "tag": "medium chips",
+   "patterns": ["Chips for R20 please" , "I would like to order R20 chips" , "I would like to order R20 fries" ,"Chips for R20","chips for R20 please", "Fries for R20 please" , "I would like to order medium fries" , "I would like to order medium chips" , "medium chips please" , "medium fries please" ,"medium chips", "medium fries", "I want medium chips ","I want medium fries", "R20 fries " , "R20 chips" , "20 fries" , "20 chips"],
+   "responses":["Thank you for ordering , large chips coming up , would you like it with sauces , yes or no? " , "Thank you for ordering , R20 chips coming up , would you like it with sauces , yes or no?" , "Thank you for ordering , R20 fries coming up , would you like it with sauces , yes or no?"],
+   "context":""
+ },
+ {
+   "tag": "large chips",
+   "patterns": ["Chips for R25 please" , "I would like to order R25 chips" , "I would like to order R25 fries" ,"Chips for R25", "Fries for R25 please" , "I would like to order large fries" , "I would like to order large chips" , "large chips please" , "large fries please" ,"large chips", "large fries", "I want large chips ","I want large fries", "R25 fries " , "R25 chips" , "25 fries" , "25 chips"],
+   "responses":["Thank you for ordering , large chips coming up , would you like it with sauces , yes or no? " , "Thank you for ordering , R25 chips coming up , would you like it with sauces , yes or no?" , "Thank you for ordering , R25 fries coming up , would you like it with sauces , yes or no? "],
+   "context":""
+ },
+ {
+   "tag":"basic",
+   "patterns":["I would like a R20 spatlo ", "I would like a R20 kota " , "I would like a R20 schambane" , "R20 spatlo" , "R20 kota" , "R20 schambane" , "I want R20 kota" , "I want R20 schambane","I want R20 kota","20 spatlo" , "20 kota" , "20 schambane" , "I would like 20 kota" , "I would like 20 spatlo" , "I would like 20 schambane" ],
+   "responses":["Thank you for ordering , R20 spatlo coming up , would you like it with sauces , yes or no? " , "Thank you for ordering , R20 schambane coming up , would you like it with sauces , yes or no?" , "Thank you for ordering , R20 kota coming up , would you like it with sauces , yes or no?"],
+   "context":""
+ },
+ {
+   "tag":"silver",
+   "patterns":["I would like a R25 spatlo ", "I would like a R25 kota " , "I would like a R25 schambane" , "R25 spatlo" , "R25 kota" , "R25 schambane" , "I want R25 kota" , "I want R25 schambane","I want R25 kota","25 spatlo" , "25 kota" , "25 schambane" , "I would like 25 kota" , "I would like 25 spatlo" , "I would like 25 schambane" ],
+   "responses":["Thank you for ordering , R25 spatlo coming up , would you like it with sauces , yes or no? " , "Thank you for ordering , R25 schambane coming up, would you like it with sauces , yes or no? " , "Thank you for ordering , R25 kota coming up , would you like it with sauces , yes or no? "],
+   "context":""
+ },
+ {
+   "tag":"gold",
+   "patterns":["I would like a R30 spatlo ", "I would like a R30 kota " , "I would like a R30 schambane" , "R30 spatlo" , "R30 kota" , "R30 schambane" , "I want R30 kota" , "I want R30 schambane","I want R30 spatlo","30 spatlo" , "30 kota" , "30 schambane" , "I would like 30 kota" , "I would like 30 spatlo" , "I would like 30 schambane" ],
+   "responses":["Thank you for ordering , R30 spatlo coming up , would you like it with sauces , yes or no?" , "Thank you for ordering , R30 schambane coming up , would you like it with sauces , yes or no?" , "Thank you for ordering , R30 kota coming up , would you like it with sauces , yes or no?"],
+   "context":""
+ },
+ {
+   "tag":"platinum",
+   "patterns":["I would like a R35 spatlo ", "I would like a R35 kota " , "I would like a R35 schambane" , "R35 spatlo" , "R35 kota" , "R35 schambane" , "I want R35 kota","I want R35 schambane","I want R35 spatlo" , "35 spatlo" , "35 kota" , "35 schambane" , "I would like 35 kota" , "I would like 35 spatlo" , "I would like 35 schambane" ],
+   "responses":["Thank you for ordering , R35 spatlo coming up  , would you like it with sauces , yes or no?" , "Thank you for ordering , R35 schambane coming up, would you like it with sauces , yes or no? " , "Thank you for ordering , R35 kota coming up , would you like it with sauces , yes or no?"],
+   "context":""
+ }
+ 
+
+
+
+
+]
+}
