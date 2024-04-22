@@ -6,8 +6,8 @@ import mysql.connector
 
 
 
-account_sid = 'AC1c220a59cb525ff0722e87f4b647ef6e'
-auth_token = '35523f3b41606e9c749c6872faaf2118'
+account_sid = 'enter your twillio sid'
+auth_token = 'enter your twillio sid'
 client = Client(account_sid, auth_token)
 
 chat = Flask(__name__)
